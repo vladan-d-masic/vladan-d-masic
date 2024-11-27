@@ -1,0 +1,28 @@
+body {
+    background-color: #ECDFCC;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#menu {
+    
+    margin-top: 20px;
+    background-color: #3C3D37;
+    margin-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content:space-evenly; */
+    /* gap: 10px; */
+}
+
+.menu-button {
+    padding: 20px;
+    background-color: #3C3D37;
+    text-decoration: none;
+    color: #ECDFCC;
+}
+
+.menu-button:hover {
+    text-decoration: none;
+    background-color: #181C14;
+}
