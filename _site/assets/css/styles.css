@@ -2,11 +2,14 @@ body {
     background-color: #ECDFCC;
     margin-left: 0;
     margin-right: 0;
+    font-size: 20px;
 }
 
 #menu {
-    
-    margin-top: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-top: 0;
     background-color: #3C3D37;
     margin-bottom: 100px;
     display: flex;
@@ -25,4 +28,14 @@ body {
 .menu-button:hover {
     text-decoration: none;
     background-color: #181C14;
+}
+
+footer {
+    margin: 70px 0 20px 0;
+    text-align: center;
+}
+
+main {
+    margin: 200px auto 0 auto;
+    max-width: 800px;
 }
